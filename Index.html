@@ -1,0 +1,940 @@
+
+<!DOCTYPE html><html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">window['ppConfig'] = {productName: '6b8ce7c01e3dacd3d2c7a8cd322ff979', deleteIsEnforced:  false , sealIsEnforced:  false , heartbeatRate:  0.5 , periodicReportingRateMillis:  60000.0 , disableAllReporting:  false };(function(){'use strict';function k(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}var l=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};
+function m(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var n=m(this);function p(a,b){if(b)a:{var c=n;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&l(c,a,{configurable:!0,writable:!0,value:b})}}
+function q(a){var b=typeof Symbol!="undefined"&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if(typeof a.length=="number")return{next:k(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}p("Object.is",function(a){return a?a:function(b,c){return b===c?b!==0||1/b===1/c:b!==b&&c!==c}});
+p("Array.prototype.includes",function(a){return a?a:function(b,c){var d=this;d instanceof String&&(d=String(d));var e=d.length;c=c||0;for(c<0&&(c=Math.max(c+e,0));c<e;c++){var f=d[c];if(f===b||Object.is(f,b))return!0}return!1}});
+p("String.prototype.includes",function(a){return a?a:function(b,c){if(this==null)throw new TypeError("The 'this' value for String.prototype.includes must not be null or undefined");if(b instanceof RegExp)throw new TypeError("First argument to String.prototype.includes must not be a regular expression");return this.indexOf(b,c||0)!==-1}});function r(a,b,c){a("https://csp.withgoogle.com/csp/proto/"+encodeURIComponent(b),JSON.stringify(c))}function t(){var a;if((a=window.ppConfig)==null?0:a.disableAllReporting)return function(){};var b,c,d,e;return(e=(b=window)==null?void 0:(c=b.navigator)==null?void 0:(d=c.sendBeacon)==null?void 0:d.bind(navigator))!=null?e:u}function u(a,b){var c=new XMLHttpRequest;c.open("POST",a);c.send(b)}
+function v(){var a=(w=Object.prototype)==null?void 0:w.__lookupGetter__("__proto__"),b=x,c=y;return function(){var d=a.call(this),e,f,g,h;r(c,b,{type:"ACCESS_GET",origin:(f=window.location.origin)!=null?f:"unknown",report:{className:(g=d==null?void 0:(e=d.constructor)==null?void 0:e.name)!=null?g:"unknown",stackTrace:(h=Error().stack)!=null?h:"unknown"}});return d}}
+function z(){var a=(A=Object.prototype)==null?void 0:A.__lookupSetter__("__proto__"),b=x,c=y;return function(d){d=a.call(this,d);var e,f,g,h;r(c,b,{type:"ACCESS_SET",origin:(f=window.location.origin)!=null?f:"unknown",report:{className:(g=d==null?void 0:(e=d.constructor)==null?void 0:e.name)!=null?g:"unknown",stackTrace:(h=Error().stack)!=null?h:"unknown"}});return d}}function B(a,b){C(a.productName,b);setInterval(function(){C(a.productName,b)},a.periodicReportingRateMillis)}
+var D="constructor __defineGetter__ __defineSetter__ hasOwnProperty __lookupGetter__ __lookupSetter__ isPrototypeOf propertyIsEnumerable toString valueOf __proto__ toLocaleString x_ngfn_x".split(" "),E=D.concat,F=navigator.userAgent.match(/Firefox\/([0-9]+)\./),G=(!F||F.length<2?0:Number(F[1])<75)?["toSource"]:[],H;if(G instanceof Array)H=G;else{for(var I=q(G),J,K=[];!(J=I.next()).done;)K.push(J.value);H=K}var L=E.call(D,H),M=[];
+function C(a,b){for(var c=[],d=q(Object.getOwnPropertyNames(Object.prototype)),e=d.next();!e.done;e=d.next())e=e.value,L.includes(e)||M.includes(e)||c.push(e);e=Object.prototype;d=[];for(var f=0;f<c.length;f++){var g=c[f];d[f]={name:g,descriptor:Object.getOwnPropertyDescriptor(Object.prototype,g),type:typeof e[g]}}if(d.length!==0){c=q(d);for(e=c.next();!e.done;e=c.next())M.push(e.value.name);var h;r(b,a,{type:"SEAL",origin:(h=window.location.origin)!=null?h:"unknown",report:{blockers:d}})}};var N=Math.random(),O=t(),P=window.ppConfig;P&&(P.disableAllReporting||P.deleteIsEnforced&&P.sealIsEnforced||N<P.heartbeatRate&&r(O,P.productName,{origin:window.location.origin,type:"HEARTBEAT"}));var y=t(),Q=window.ppConfig;if(Q)if(Q.deleteIsEnforced)delete Object.prototype.__proto__;else if(!Q.disableAllReporting){var x=Q.productName;try{var w,A;Object.defineProperty(Object.prototype,"__proto__",{enumerable:!1,get:v(),set:z()})}catch(a){}}
+(function(){var a=t(),b=window.ppConfig;b&&(b.sealIsEnforced?Object.seal(Object.prototype):b.disableAllReporting||(document.readyState!=="loading"?B(b,a):document.addEventListener("DOMContentLoaded",function(){B(b,a)})))})();}).call(this);
+</script><meta charset="utf-8"><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">var DOCS_timing={}; DOCS_timing['sl']=new Date().getTime();</script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">function _DumpException(e) {throw e;}</script><script data-id="_gd" nonce="bhY6a47Rwk0BZmXx2K1qPQ">window.WIZ_global_data = {"K1cgmc":"%.@.[null,null,null,[1,1,[1756801689,930864000],4],null,25]]","nQyAE":{}};</script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">_docs_flag_initialData={"atari-emtpr":false,"atari-eibrm":false,"docs-text-usc":true,"atari-bae":false,"docs-text-etsrdpn":false,"docs-text-etsrds":false,"docs-text-endes":false,"docs-text-escpv":true,"docs-text-ecfs":false,"docs-text-edctzs":true,"docs-text-eetxp":false,"docs-text-ettctvs":false,"docs-text-ettts":true,"docs-text-escoubs":false,"docs-text-escivs":false,"docs-text-escitrbs":false,"docs-text-ecvdis":false,"docs-text-eiosmc":false,"docs-text-etb":false,"docs-text-esbefr":false,"docs-etshc":false,"docs-text-tbcb":2.0E7,"docs-efsmsdl":false,"docs-text-etof":false,"docs-text-ehlb":false,"docs-text-dwit":false,"docs-text-elawp":false,"docs-eec":false,"docs-esff":false,"docs-idu":false,"docs-sup":"","docs-dli":false,"docs-liap":"/naLogImpressions","ilcm":{"eui":"AHKXmL1HL36iGa-AYnpeb1ASKZ6gqqQw2QeYprEpiXOlKNpRsIqbT_ddiivtjyqoDTvCs338B2f_","je":1,"sstu":1757140838836730,"si":"CPvTk9zDw48DFa0EbwYdLFUloQ","gsc":null,"ei":[5703839,5704621,5706832,5706836,5738513,5738529,5740798,5740814,5743108,5743124,5747263,5758807,5758823,5762243,5762259,5767835,5767851,5773662,5773678,5774836,5774852,5776501,5776517,5784931,5784947,5784951,5784967,5798980,5798996,14101306,14101502,14101510,14101534,49472063,49472071,49643568,49643576,49644015,49644023,49769337,49769345,49822921,49822929,49823164,49823172,49833462,49833470,49842855,49842863,49924706,49924714,50266222,50266230,50273528,50273536,50297076,50297084,50528070,50528078,50549555,50549563,50561343,50561351,50586962,50586970,70971256,70971264,71038255,71038263,71079938,71079946,71085241,71085249,71120968,71120976,71325556,71325564,71387889,71387897,71429507,71429515,71465937,71465945,71478200,71478208,71478589,71478597,71528597,71528605,71530083,71530091,71544834,71544842,71545513,71545521,71546425,71546433,71573870,71573878,71642103,71642111,71652641,71658040,71658048,71659813,71659821,71689860,71689868,71742921,71742937,71798420,71798436,71798440,71798456,71855010,71855018,71897827,71897835,71960540,71960548,94327671,94327679,94350289,94350305,94353368,94353376,94434257,94434265,94507744,94507752,94509890,94509898,94523168,94523176,94624865,94624873,94629757,94629765,94660795,94660803,94661802,94661810,94692298,94692306,94744856,94744864,94818982,94818987,94818995,94819000,94819061,94819066,94819459,94819464,94864653,94864661,94904089,94904097,94918952,94918960,95087186,95087194,95087227,95087235,95112873,95112881,95118561,95118569,95135933,95135941,95182361,95182367,95234871,95234879,95314802,95314810,95317482,95317490,99265946,99265954,99310979,99310987,99338440,99338448,99368792,99368800,99402331,99402339,99457807,99457815,101508355,101508363,101519280,101519288,101562406,101562414,101631191,101631199,101687117,101687125,101754342,101754350,101801098,101801106,101836971,101836979,101837416,101837424,101855239,101855247,101922739,101922747,101922880,101922888,102030642,102030650,102074087,102074095,102159512,102159520,102161447,102161455,102196124,102196132,102198282,102198290,102199034,102199050,102244489,102244497,102249831,102262249,102262257,102280628,102280636,102287864,102287872,102343036,102343044,102343380,102343388,102402679,102402687,102430621,102430629,102469860,102469868,102515093,102515098,102517339,102517344,102545782,102545790,102617405,102617413,102638251,102638259,102673375,102685384,102685389,102690600,102690608,102693401,102693406,102718396,102721215,102721220,102741226,102741234,102762315,102762323,102774707,102774715,102778981,102778989,102787563,102807790,102807798,102867835,102867843,102903660,102903668,102909750,102909755,102921493,102921501,102932587,102932595,102944189,102944194,102944268,102944273,102944503,102944508,102973360,102973368,102988272,102988277,103000123,103000131,103011418,103011426,103117316,103117324,103176010,103176018,103176419,103176427,103212633,103212641,103242045,103242053,103325406,103325411,103343830,103343838,103351443,103351451,103354296,103354304,103355353,103355361,103355643,103355651,104530130,104531055,104531063,104569193,104569201,104573899,104573907,104599801,104599806,104615595,104615603,104661247,104661255,104764124,104764132,104792933,104792938,104869084,104869092,104874944,104874960,104940397,104940405,104962265,105072273,105072281,105276179,105276184],"crc":0,"cvi":[]},"docs-ccdil":false,"docs-eil":true,"info_params":{"token":"AHL0AtJym08sC-BrDSwykDkHN8LEGRq_ZQ:1757140838729"},"buildLabel":"editors.sites-viewer-frontend_20250826.02_p1","docs-show_debug_info":false,"atari-jefp":"/_/view/jserror","docs-jern":"view","atari-rhpp":"/_/view","docs-ecuach":false,"docs-cclt":2033,"docs-ecci":true,"docs-ecsbff":true,"docs-esi":false,"docs-efypr":true,"docs-eyprp":true,"docs-li":"104240","docs-trgthnt":"","docs-etmhn":false,"docs-thnt":"","docs-hbt":[],"docs-hdet":["nMX17M8pQ0kLUkpsP190WPbQDRJQ","17hED8kG50kLUkpsP190TThQn3DA","BDNZR4PXx0kLUkpsP190SJtNPkYt","Etj5wJCQk0kLUkpsP190NwiL8UMa","xCLbbDUPA0kLUkpsP190XkGJiPUm","2NUkoZehW0kLUkpsP190UUNLiXW9","yuvYtd5590kLUkpsP190Qya5K4UR","ZH4rzt2uk0kLUkpsP190UDkF5Bkq","uQUQhn57A0kLUkpsP190WHoihP41","93w8zoRF70kLUkpsP190TxXbtSeV","fAPatjr1X0kLUkpsP190SaRjNRjw","T4vgqqjK70kLUkpsP190ScPehgAW","JyFR2tYWZ0kLUkpsP190Rn3HzkxT","ufXj7vmeJ0kLUkpsP190QURhvJn2","KFks7UeZ30kLUkpsP190UUMR6cvh","LcTa6EjeC0kLUkpsP190RKgvW5qi","s3UFcjGjt0kLUkpsP190Z45ftWRr","o99ewBQXy0kLUkpsP190Nq2qr6tf","PHVyy5uSS0kLUkpsP190SUsYo8gQ","yZn21akid0iSFTCbiEB0WPiGEST3","h2TtqzmQF0kLUkpsP190YPJiQt7p","MZi9vb5UC0kLUkpsP190ReUhvVjy","dSR6SPjB80kLUkpsP190Y3xHa9qA","Bz6B7VmLu0kLUkpsP190W3FeobP7","AiLoubzsd0kLUkpsP190XtYNPgYT","2J3DVQoVh0kLUkpsP190R5wShSrC","MLmbZasLS0kLUkpsP190YHf6Zjsf","S1T4ezMsZ0kLUkpsP190U6GfQUxi","N5u4VeWhx0iSFTCbiEB0VUTNdX6g","XM16tjwrD0iSFTCbiEB0NfzvTeuU","ybYTJk1eD0iSFTCbiEB0QV4rkzSF","TgXar1TSG0iSFTCbiEB0SsXMaKuP","JYfGDkExa0iSFTCbiEB0TTQnEDtH","2i9JBUZ3w0iSFTCbiEB0RytbUoNq","pgvTVXNKa0iSFTCbiEB0ShqmBTMR","NsVnd81bW0iSFTCbiEB0RhcXEK9M","rTQirATnb0iSFTCbiEB0W5cPcA7D","wNyww2Syr0iSFTCbiEB0Pzsbemba","DVdpfbqGj0iSFTCbiEB0RP4dMdFg","WKN3dsuG20iSFTCbiEB0NtEYhMK7","S5iPRteXX0iSFTCbiEB0YkMazE6h","6hmou1AcB0iSFTCbiEB0R9rZWXdz","wvo4NcLUj0iSFTCbiEB0Tt7mcVxE","HWuSeN2AB0iSFTCbiEB0PoBwHT2F","rTcCMw3BM0mHq3jmV6o0RHeAExRK","HUYzfGVRa0mHq3jmV6o0Uxe2caXK","1XYMmM1Cu0mHq3jmV6o0Z3pEi8xm","xHhMJiXiV0mHq3jmV6o0WB8WinyM","xwSFpxEiU0mHq3jmV6o0PcnvcKmd","4MBkBg26q0mHq3jmV6o0QeKPRMpY","y5g8iW2T80mHq3jmV6o0Nr8SAj4C","W9YRKy3Lb0iSFTCbiEB0Xfs1EfPr","Ed3nhrN8D0iSFTCbiEB0RN4bJ53y","zxDKY7PC10iSFTCbiEB0UDYPJwDZ","bhEyDmbwi0mHq3jmV6o0TngCF1v2","6rKYZ6uHA0mHq3jmV6o0TeDZjgB8","71Deousgx0mHq3jmV6o0WXBQiyzi","sVEZbUAa70mHq3jmV6o0TNq1M7FF","8ZPFZT5nG0mHq3jmV6o0PJ5yoVh4","P55v8p4Lk0mHq3jmV6o0VjggjHMV","QqnZoz9ko0mHq3jmV6o0QskzBcHn","6nr31z9Wv0mERqSGkGf0VhuvAXWC","RLHeYNm410mERqSGkGf0Y817EUFK","vmx68XtfJ0mERqSGkGf0RCUBfsQr","687J7yD1q0mERqSGkGf0RVmMYHo1","qwhWQy8Zi0mERqSGkGf0W2tdypUF","wF8Sk241e0mERqSGkGf0YNtN6gpV","ijUhdx2QN0mERqSGkGf0TSD26iBJ","3iBLaMnuG0mERqSGkGf0VdY8XuLS","cFR77YEGo0iSFTCbiEB0PcMDWjX2","evUYuNCS80mERqSGkGf0Psi8j3Dw","soWncRV7C0mERqSGkGf0PZheXrWA","TvjoiCaar0mERqSGkGf0S9qS5adj","txL54xWLC0mERqSGkGf0XoEGTvCu","MP3EsW1un0mERqSGkGf0QDkfTxat","N1q4Y3fqz0mERqSGkGf0W1oPWWoc","ffZmMGtYT0suK1NZr2K0QUxSzEMN","NagbcZWyB0suK1NZr2K0SJmfmJ3n","KMcLKvubv0suK1NZr2K0PLMUJ7zr","a13ejFS5i0suK1NZr2K0WzewY5tP","pZ1hXv7ve0suK1NZr2K0U5qoNhyU","pwLDucJZU0ezFcgqx310NgtmYpbV","TCKDVQ6J0Bn3gbW4AcZC0PQKypCa","Z7vabQzZ0Bn3gbW4AcZC0TfvmSab","UUNcLtsso0mERqSGkGf0Uwg2tMZa","wYCZkqoz10fBWirfAym0S1sADKbJ"],"docs-hunds":false,"docs-hae":"PROD","docs-ehn":true,"docs-epq":true,"docs-upap":"/_/view/prefs"}; _docs_flag_cek= null ; if (window['DOCS_timing']) {DOCS_timing['ifdld']=new Date().getTime();}</script><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="referrer" content="strict-origin-when-cross-origin"><link rel="icon" href="https://ssl.gstatic.com/atari/images/public/favicon.ico"><meta property="og:title" content="Home"><meta property="og:type" content="website"><meta property="og:url" content="https://sites.google.com/view/questumconsulting/home"><meta itemprop="name" content="Home"><meta itemprop="url" content="https://sites.google.com/view/questumconsulting/home"><meta itemprop="thumbnailUrl" content="https://lh6.googleusercontent.com/h1a6D5jYmwMsokf2kr0zoF6y0MbGNhDdnsBtI7MwitVpm7HZ4mYcSaSgSiof3piCFbJSdiNLnk27jRb7C3bMuHhicEgbxn3ZTt9RlLPeWGN1dkyJI5qlrXNLxLN2o6gEPPjbx9iBvcM=w16383"><meta itemprop="image" content="https://lh6.googleusercontent.com/h1a6D5jYmwMsokf2kr0zoF6y0MbGNhDdnsBtI7MwitVpm7HZ4mYcSaSgSiof3piCFbJSdiNLnk27jRb7C3bMuHhicEgbxn3ZTt9RlLPeWGN1dkyJI5qlrXNLxLN2o6gEPPjbx9iBvcM=w16383"><meta itemprop="imageUrl" content="https://lh6.googleusercontent.com/h1a6D5jYmwMsokf2kr0zoF6y0MbGNhDdnsBtI7MwitVpm7HZ4mYcSaSgSiof3piCFbJSdiNLnk27jRb7C3bMuHhicEgbxn3ZTt9RlLPeWGN1dkyJI5qlrXNLxLN2o6gEPPjbx9iBvcM=w16383"><meta property="og:image" content="https://lh6.googleusercontent.com/h1a6D5jYmwMsokf2kr0zoF6y0MbGNhDdnsBtI7MwitVpm7HZ4mYcSaSgSiof3piCFbJSdiNLnk27jRb7C3bMuHhicEgbxn3ZTt9RlLPeWGN1dkyJI5qlrXNLxLN2o6gEPPjbx9iBvcM=w16383"><link href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C700&display=swap" rel="stylesheet" nonce="Wc0tBir-rpgwzVZz3T-yug"><link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&display=swap" rel="stylesheet" nonce="Wc0tBir-rpgwzVZz3T-yug"><link href="https://fonts.googleapis.com/css?family=Roboto%3Ai%2Cbi%2C700%2C400&display=swap" rel="stylesheet" nonce="Wc0tBir-rpgwzVZz3T-yug"><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">(function() {var img = new Image().src = "https://ssl.gstatic.com/atari/images/results-not-loaded.svg";})();</script><link rel="stylesheet" href="https://www.gstatic.com/_/atari/_/ss/k=atari.vw.KyCPDgtNGr8.L.W.O/am=AIEBCA/d=1/rs=AGEqA5lNe06DqVVYLMDbeqOHzuYm5rphQg" data-id="_cl" nonce="Wc0tBir-rpgwzVZz3T-yug"><script nonce="bhY6a47Rwk0BZmXx2K1qPQ"></script><title>Home</title><style jsname="ptDGoc" nonce="Wc0tBir-rpgwzVZz3T-yug">.ImnMyf{background-color: rgba(255,255,255,1); color: rgba(33,33,33,1);}.Vs12Bd{color: rgba(33,33,33,1);}.S5d9Rd{background-color: rgba(255,213,79,1); color: rgba(33,33,33,1);}.O13XJf{height: 340px;}.O13XJf .IFuOkc{background-image: url(https://ssl.gstatic.com/atari/images/level-header.png); background-color: rgba(255,213,79,1); background-position-y: center;}.O13XJf .IFuOkc:before{background-color: rgba(33,33,33,1); opacity: 0.5; display: block;}.O13XJf .zfr3Q{color: rgba(255,255,255,1);}.O13XJf .qnVSj{color: rgba(255,255,255,1);}.O13XJf .Glwbz{color: rgba(255,255,255,1);}.O13XJf .qLrapd{color: rgba(255,255,255,1);}.O13XJf .aHM7ed{color: rgba(255,255,255,1);}.O13XJf .NHD4Gf{color: rgba(255,255,255,1);}.O13XJf .QmpIrf{background-color: rgba(255,255,255,1); border-color: rgba(255,255,255,1); color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}@media only screen and (max-width: 479px){.O13XJf .QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.O13XJf .QmpIrf{font-size: 13pt;}}@media only screen and (max-width: 479px){.O13XJf{height: 250px;}}.SBrW1{height: 430px; padding-bottom: 120px; padding-top: 120px;}.Wew9ke{fill: rgba(255,255,255,1);}.fOU46b .YSH9J{color: rgba(255,255,255,1);}.fOU46b .KJll8d{background-color: rgba(255,255,255,1);}.fOU46b .Mz8gvb{color: rgba(255,255,255,1);}.fOU46b .G8QRnc .Mz8gvb{color: rgba(33,33,33,1);}.fOU46b .G8QRnc .YSH9J{color: rgba(33,33,33,1);}.fOU46b .G8QRnc .iWs3gf.chg4Jd:focus{background-color: rgba(33,33,33,0.1199999973);}.fOU46b .G8QRnc .KJll8d{background-color: rgba(33,33,33,1);}.fOU46b .usN8rf .YSH9J{color: rgba(33,33,33,1);}.fOU46b .usN8rf .KJll8d{background-color: rgba(33,33,33,1);}.fOU46b .usN8rf .Mz8gvb{color: rgba(33,33,33,1);}.fOU46b .aCIEDd .YSH9J{color: rgba(33,33,33,1);}.fOU46b .aCIEDd .KJll8d{background-color: rgba(33,33,33,1);}.fOU46b .aCIEDd .Mz8gvb{color: rgba(33,33,33,1);}.fOU46b .a3ETed .YSH9J{color: rgba(33,33,33,1);}.fOU46b .a3ETed .KJll8d{background-color: rgba(33,33,33,1);}.fOU46b .a3ETed .M9vuGd{border-bottom-color: rgba(0,0,0,0.150000006);}.fOU46b .a3ETed .Mz8gvb{color: rgba(33,33,33,1);}.fOU46b .zDUgLc{opacity: 0;}.fOU46b .LBrwzc .zDUgLc{opacity: 1; border-bottom-style: none;}.fOU46b .GBy4H .zDUgLc{opacity: 1;}@media only screen and (min-width: 1280px){.XeSM4.b2Iqye.fOU46b .LBrwzc .tCHXDc{color: rgba(255,255,255,1);}}.XeSM4.b2Iqye.fOU46b .LBrwzc .iWs3gf.chg4Jd:focus{background-color: rgba(255,255,255,0.1199999973);}@media only screen and (min-width: 1280px){.KuNac.b2Iqye.fOU46b .GBy4H .tCHXDc{color: rgba(33,33,33,1);}}.KuNac.b2Iqye.fOU46b .GBy4H .iWs3gf.chg4Jd:focus{background-color: rgba(33,33,33,0.1199999973);}@media only screen and (min-width: 1280px){.KuNac.G9Qloe.fOU46b .GBy4H .tCHXDc{color: rgba(255,255,255,1);}}.KuNac.G9Qloe.fOU46b .GBy4H .iWs3gf.chg4Jd:focus{background-color: rgba(255,255,255,0.1199999973);}@media only screen and (min-width: 1280px){.XeSM4.G9Qloe.fOU46b .LBrwzc .tCHXDc{color: rgba(33,33,33,1);}}.XeSM4.G9Qloe.fOU46b .LBrwzc .iWs3gf.chg4Jd:focus{background-color: rgba(33,33,33,0.1199999973);}.LBrwzc .YSH9J{color: rgba(33,33,33,1);}.LBrwzc .oNsfjf{color: rgba(33,33,33,1);}.LBrwzc .KJll8d{background-color: rgba(33,33,33,1);}.LBrwzc .YTv4We.chg4Jd:focus:before{border-color: rgba(33,33,33,1); display: block;}.LBrwzc .Mz8gvb{color: rgba(33,33,33,1);}.LBrwzc .wgxiMe{background-color: rgba(255,255,255,1);}.LBrwzc .zDUgLc{border-bottom-color: rgba(204,204,204,1); border-bottom-width: 1px; border-bottom-style: solid;}.GBy4H .wgxiMe{background-color: rgba(0,0,0,1);}.JzO0Vc{background-color: rgba(79,71,78,1);}.M63kCb{background-color: rgba(245,242,240,1);}.zfr3Q{font-family: Roboto; color: rgba(33,33,33,1); font-size: 13pt; line-height: 1.55; margin-top: 14px;}.qnVSj{color: rgba(33,33,33,1);}.Glwbz{color: rgba(33,33,33,1);}.qLrapd{color: rgba(33,33,33,1);}.aHM7ed{color: rgba(33,33,33,1);}.NHD4Gf{color: rgba(33,33,33,1);}.zfr3Q .OUGEr{color: rgba(33,33,33,1);}.dhtgD{text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; font-weight: 700;}.dhtgD:hover{border-bottom-color: rgba(255,213,79,1); border-bottom-style: solid; border-bottom-width: 1px;}.lQAHbd .dhtgD:visited{border-bottom-color: rgba(245,242,240,1);}.lQAHbd .dhtgD:hover{border-bottom-color: rgba(33,33,33,1);}.dhtgD:active{border-bottom-color: rgba(255,213,79,1); border-bottom-style: solid; border-bottom-width: 1px;}.dhtgD:visited{border-bottom-color: rgba(255,213,79,1); border-bottom-style: solid; border-bottom-width: 1px;}.duRjpb{font-family: Roboto; font-size: 37pt; line-height: 1.25; font-weight: 100; margin-top: 20px;}.Ap4VC{margin-bottom: -20px;}.JYVBee{font-family: Roboto; font-size: 28pt; line-height: 1.21; font-weight: 100; margin-top: 20px;}.CobnVe{margin-bottom: -20px;}.OmQG5e{font-family: Roboto; font-size: 16pt; line-height: 1.27; margin-top: 18px; font-weight: 300;}.GV3q8e{margin-bottom: -18px;}.TMjjoe{font-family: Roboto; font-size: 9pt; line-height: 1.2; margin-top: 0px;}.Zjiec{font-family: Roboto; font-weight: 300; font-size: 15pt; line-height: 1.4; margin-top: 48px; margin-left: 48px; margin-bottom: 62px; margin-right: 32px;}.XMyrgf{margin-top: 48px; margin-left: 48px; margin-bottom: 0px; margin-right: 32px;}.PsKE7e{font-family: Roboto; font-weight: 700; font-size: 12pt; padding-left: 10px; padding-right: 10px;}.lhZOrc{font-weight: 700;}.lhZOrc .hDrhEe{border-bottom-width: 7px; border-bottom-color: rgba(255,213,79,1); border-bottom-style: solid;}.TlfmSc{font-family: Roboto; font-weight: 300; font-size: 15pt; line-height: 1.4;}.zDUgLc{background-color: rgba(79,71,78,1); opacity: 1;}.baZpAe{background-color: rgba(255,255,255,1);}.N0neUc{background-color: rgba(255,255,255,0);}.ySLm4c{background-color: rgba(255,255,255,0); font-family: Roboto;}.KUB40b{background-color: transparent;}.OWlOyc{background-color: rgba(255,255,255,0);}.iwQgFb{background-color: rgba(0,0,0,0.150000006); height: 3px; margin-top: 8px;}.CbiMKe{background-color: rgba(255,213,79,1);}.QmpIrf{background-color: rgba(255,213,79,1); border-color: rgba(255,213,79,1); color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.LRAOtb{background-color: rgba(255,255,255,1);}.qeLZfd .zfr3Q{color: rgba(33,33,33,1);}.qeLZfd .zfr3Q .OUGEr{color: rgba(33,33,33,1);}.qeLZfd .qnVSj{color: rgba(33,33,33,1);}.qeLZfd .Glwbz{color: rgba(33,33,33,1);}.qeLZfd .qLrapd{color: rgba(33,33,33,1);}.qeLZfd .aHM7ed{color: rgba(33,33,33,1);}.qeLZfd .NHD4Gf{color: rgba(33,33,33,1);}.qeLZfd .LRAOtb{background-color: transparent;}.qeLZfd .baZpAe{background-color: transparent;}.qeLZfd .iwQgFb{background-color: rgba(0,0,0,0.150000006);}.lQAHbd:before{background-color: rgba(255,213,79,1); display: block;}.lQAHbd .zfr3Q{color: rgba(33,33,33,1);}.lQAHbd .zfr3Q .OUGEr{color: rgba(33,33,33,1);}.lQAHbd .qnVSj{color: rgba(33,33,33,1);}.lQAHbd .Glwbz{color: rgba(33,33,33,1);}.lQAHbd .qLrapd{color: rgba(33,33,33,1);}.lQAHbd .aHM7ed{color: rgba(33,33,33,1);}.lQAHbd .NHD4Gf{color: rgba(33,33,33,1);}.lQAHbd .LRAOtb{background-color: transparent;}.lQAHbd .baZpAe{background-color: transparent;}.lQAHbd .iwQgFb{background-color: rgba(0,0,0,0.150000006);}.lQAHbd .QmpIrf{background-color: rgba(255,255,255,1); border-color: rgba(255,255,255,1); color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.lQAHbd .CbiMKe{background-color: rgba(255,255,255,1);}@media only screen and (max-width: 479px){.lQAHbd .QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.lQAHbd .QmpIrf{font-size: 13pt;}}.LB7kq .IFuOkc{border-bottom-color: rgba(255,213,79,1); border-bottom-width: 10px; border-bottom-style: solid;}.LB7kq .duRjpb{font-size: 63pt; line-height: 1.25; margin-bottom: 19px;}@media only screen and (max-width: 479px){.LB7kq .duRjpb{font-size: 41pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.LB7kq .duRjpb{font-size: 53pt;}}.gk8rDe .duRjpb{font-size: 48pt;}.LB7kq.gk8rDe .zfr3Q{color: rgba(0,0,0,1);}@media only screen and (max-width: 479px){.gk8rDe .duRjpb{font-size: 32pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.gk8rDe .duRjpb{font-size: 41pt;}}.LB7kq .baZpAe{background-color: transparent;}.LB7kq .JYVBee{font-size: 28pt; line-height: 1.18;}@media only screen and (max-width: 479px){.LB7kq .JYVBee{font-size: 21pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.LB7kq .JYVBee{font-size: 25pt;}}.cJgDec .baZpAe{background-color: transparent;}.cJgDec .baZpAe .OUGEr{color: rgba(255,255,255,1);}.cJgDec .baZpAe .LRAOtb{background-color: transparent;}.cJgDec .zfr3Q{color: rgba(255,255,255,1);}.cJgDec .qnVSj{color: rgba(255,255,255,1);}.cJgDec .Glwbz{color: rgba(255,255,255,1);}.cJgDec .qLrapd{color: rgba(255,255,255,1);}.cJgDec .aHM7ed{color: rgba(255,255,255,1);}.cJgDec .NHD4Gf{color: rgba(255,255,255,1);}.cJgDec .IFuOkc:before{background-color: rgba(33,33,33,1); opacity: 0.5; display: block;}.cJgDec .QmpIrf{background-color: rgba(255,255,255,1); border-color: rgba(255,255,255,1); color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}@media only screen and (max-width: 479px){.cJgDec .QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.cJgDec .QmpIrf{font-size: 13pt;}}.tpmmCb .baZpAe{background-color: transparent;}.tpmmCb .baZpAe .OUGEr{color: rgba(0,0,0,1);}.tpmmCb .baZpAe .LRAOtb{background-color: transparent;}.tpmmCb .zfr3Q{color: rgba(0,0,0,1);}.tpmmCb .qnVSj{color: rgba(0,0,0,1);}.tpmmCb .Glwbz{color: rgba(0,0,0,1);}.tpmmCb .qLrapd{color: rgba(0,0,0,1);}.tpmmCb .aHM7ed{color: rgba(0,0,0,1);}.tpmmCb .NHD4Gf{color: rgba(0,0,0,1);}.tpmmCb .IFuOkc:before{background-color: rgba(255,255,255,1); display: block;}.tpmmCb .Wew9ke{fill: rgba(0,0,0,1);}.tpmmCb .QmpIrf{background-color: rgba(255,255,255,1); border-color: rgba(255,255,255,1); color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}@media only screen and (max-width: 479px){.tpmmCb .QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.tpmmCb .QmpIrf{font-size: 13pt;}}.gk8rDe{padding-top: 60px;}.gk8rDe .QmpIrf{background-color: rgba(255,213,79,1); border-color: rgba(255,213,79,1); color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}@media only screen and (max-width: 479px){.gk8rDe .QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.gk8rDe .QmpIrf{font-size: 13pt;}}@media only screen and (max-width: 479px){.gk8rDe{padding-top: 32px; padding-bottom: 32px;}}.YSH9J{color: rgba(255,255,255,1);}.iWs3gf.chg4Jd:focus{background-color: rgba(255,255,255,0.1199999973);}.oNsfjf{color: rgba(255,255,255,1);}.wgxiMe{background-color: rgba(79,71,78,1);}.qV4dIc{border-bottom-color: rgba(255,255,255,0); border-bottom-style: solid; border-bottom-width: 8px; padding-top: 14px; padding-bottom: 6px; padding-left: 2px; padding-right: 2px; margin-left: 10px; margin-right: 10px;}.jgXgSe{line-height: 28px;}.u5fiyc{line-height: 28px;}.M9vuGd{border-bottom-color: rgba(255,213,79,1);}.eWDljc{background-color: rgba(79,71,78,1); padding-bottom: 28px;}.IKA38e{padding-left: 36px; margin-top: 20px;}.hDrhEe{font-family: Roboto; margin-left: 12px; margin-right: 12px; padding-left: 0px; display: inline-block; max-width: 90%;}.baH5ib .hDrhEe{margin-left: 4px; padding-left: 0px;}.PsKE7e:hover{opacity: 0.6;}.BFDQOb:hover{opacity: 0.6;}.QcmuFb{padding-left: 20px;}.vDPrib{padding-left: 40px;}.TBDXjd{padding-left: 60px;}.bYeK8e{padding-left: 80px;}.CuqSDe{padding-left: 100px;}.Havqpe{padding-left: 120px;}.JvDrRe{padding-left: 140px;}.o5lrIf{padding-left: 160px;}.yOJW7c{padding-left: 180px;}.rB8cye{padding-left: 200px;}.RuayVd{padding-right: 20px;}.YzcKX{padding-right: 40px;}.reTV0b{padding-right: 60px;}.vSYeUc{padding-right: 80px;}.PxtZIe{padding-right: 100px;}.ahQMed{padding-right: 120px;}.rzhcXb{padding-right: 140px;}.PBhj0b{padding-right: 160px;}.TlN46c{padding-right: 180px;}.GEdNnc{padding-right: 200px;}.xkUom{border-color: rgba(33,33,33,1); color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.xkUom:hover{background-color: rgba(33,33,33,0.1000000015); font-size: 13pt; line-height: 22px;}.KjwKmc{color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.KjwKmc:hover{background-color: rgba(33,33,33,0.1000000015); font-size: 13pt; line-height: 22px;}.lQAHbd .xkUom{border-color: rgba(33,33,33,1); color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.lQAHbd .xkUom:hover{background-color: rgba(255,255,255,0.1000000015);}.lQAHbd .KjwKmc{color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.lQAHbd .KjwKmc:hover{background-color: rgba(255,255,255,0.1000000015);}@media only screen and (max-width: 479px){.lQAHbd .xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.lQAHbd .xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.lQAHbd .KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.lQAHbd .KjwKmc{font-size: 13pt;}}.lQAHbd .Mt0nFe{border-color: rgba(0,0,0,0.200000003);}.cJgDec .xkUom{border-color: rgba(255,255,255,1); color: rgba(255,255,255,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.cJgDec .xkUom:hover{background-color: rgba(255,255,255,0.1000000015);}.cJgDec .KjwKmc{color: rgba(255,255,255,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.cJgDec .KjwKmc:hover{background-color: rgba(255,255,255,0.1000000015);}@media only screen and (max-width: 479px){.cJgDec .xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.cJgDec .xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.cJgDec .KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.cJgDec .KjwKmc{font-size: 13pt;}}.tpmmCb .xkUom{border-color: rgba(0,0,0,1); color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.tpmmCb .xkUom:hover{background-color: rgba(33,33,33,0.1000000015);}.tpmmCb .KjwKmc{color: rgba(0,0,0,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.tpmmCb .KjwKmc:hover{background-color: rgba(33,33,33,0.1000000015);}@media only screen and (max-width: 479px){.tpmmCb .xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.tpmmCb .xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.tpmmCb .KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.tpmmCb .KjwKmc{font-size: 13pt;}}.gk8rDe .xkUom{border-color: rgba(33,33,33,1); color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.gk8rDe .xkUom:hover{background-color: rgba(33,33,33,0.1000000015);}.gk8rDe .KjwKmc{color: rgba(33,33,33,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.gk8rDe .KjwKmc:hover{background-color: rgba(33,33,33,0.1000000015);}@media only screen and (max-width: 479px){.gk8rDe .xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.gk8rDe .xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.gk8rDe .KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.gk8rDe .KjwKmc{font-size: 13pt;}}.O13XJf .xkUom{border-color: rgba(255,255,255,1); color: rgba(255,255,255,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.O13XJf .xkUom:hover{background-color: rgba(255,255,255,0.1000000015);}.O13XJf .KjwKmc{color: rgba(255,255,255,1); font-family: Roboto; font-size: 13pt; line-height: 22px;}.O13XJf .KjwKmc:hover{background-color: rgba(255,255,255,0.1000000015);}@media only screen and (max-width: 479px){.O13XJf .xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.O13XJf .xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.O13XJf .KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.O13XJf .KjwKmc{font-size: 13pt;}}.Y4CpGd{font-family: Roboto; font-size: 13pt;}.CMArNe{background-color: rgba(245,242,240,1);}@media only screen and (max-width: 479px){.duRjpb{font-size: 26pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.duRjpb{font-size: 32pt;}}@media only screen and (max-width: 479px){.JYVBee{font-size: 21pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.JYVBee{font-size: 25pt;}}@media only screen and (max-width: 479px){.OmQG5e{font-size: 15pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.OmQG5e{font-size: 15pt;}}@media only screen and (max-width: 479px){.TMjjoe{font-size: 9pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.TMjjoe{font-size: 9pt;}}@media only screen and (max-width: 479px){.Zjiec{font-size: 14pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.Zjiec{font-size: 15pt;}}@media only screen and (max-width: 479px){.PsKE7e{font-size: 12pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.PsKE7e{font-size: 12pt;}}@media only screen and (max-width: 479px){.TlfmSc{font-size: 14pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.TlfmSc{font-size: 15pt;}}@media only screen and (max-width: 479px){.QmpIrf{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.QmpIrf{font-size: 13pt;}}@media only screen and (max-width: 479px){.xkUom{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.xkUom{font-size: 13pt;}}@media only screen and (max-width: 479px){.xkUom:hover{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.xkUom:hover{font-size: 13pt;}}@media only screen and (max-width: 479px){.KjwKmc{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.KjwKmc{font-size: 13pt;}}@media only screen and (max-width: 479px){.KjwKmc:hover{font-size: 13pt;}}@media only screen and (min-width: 480px) and (max-width: 767px){.KjwKmc:hover{font-size: 13pt;}}</style><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">_at_config = [null,"AIzaSyChg3MFqzdi1P5J-YvEyakkSA1yU7HRcDI","897606708560-a63d8ia0t9dhtpdt4i3djab2m42see7o.apps.googleusercontent.com",null,null,null,null,null,null,null,null,null,null,null,"SITES_%s",null,null,null,null,null,null,null,null,null,["AHKXmL1HL36iGa-AYnpeb1ASKZ6gqqQw2QeYprEpiXOlKNpRsIqbT_ddiivtjyqoDTvCs338B2f_",1,"CPvTk9zDw48DFa0EbwYdLFUloQ",1757140838836730,[5703839,5704621,5706832,5706836,5738513,5738529,5740798,5740814,5743108,5743124,5747263,5758807,5758823,5762243,5762259,5767835,5767851,5773662,5773678,5774836,5774852,5776501,5776517,5784931,5784947,5784951,5784967,5798980,5798996,14101306,14101502,14101510,14101534,49472063,49472071,49643568,49643576,49644015,49644023,49769337,49769345,49822921,49822929,49823164,49823172,49833462,49833470,49842855,49842863,49924706,49924714,50266222,50266230,50273528,50273536,50297076,50297084,50528070,50528078,50549555,50549563,50561343,50561351,50586962,50586970,70971256,70971264,71038255,71038263,71079938,71079946,71085241,71085249,71120968,71120976,71325556,71325564,71387889,71387897,71429507,71429515,71465937,71465945,71478200,71478208,71478589,71478597,71528597,71528605,71530083,71530091,71544834,71544842,71545513,71545521,71546425,71546433,71573870,71573878,71642103,71642111,71652641,71658040,71658048,71659813,71659821,71689860,71689868,71742921,71742937,71798420,71798436,71798440,71798456,71855010,71855018,71897827,71897835,71960540,71960548,94327671,94327679,94350289,94350305,94353368,94353376,94434257,94434265,94507744,94507752,94509890,94509898,94523168,94523176,94624865,94624873,94629757,94629765,94660795,94660803,94661802,94661810,94692298,94692306,94744856,94744864,94818982,94818987,94818995,94819000,94819061,94819066,94819459,94819464,94864653,94864661,94904089,94904097,94918952,94918960,95087186,95087194,95087227,95087235,95112873,95112881,95118561,95118569,95135933,95135941,95182361,95182367,95234871,95234879,95314802,95314810,95317482,95317490,99265946,99265954,99310979,99310987,99338440,99338448,99368792,99368800,99402331,99402339,99457807,99457815,101508355,101508363,101519280,101519288,101562406,101562414,101631191,101631199,101687117,101687125,101754342,101754350,101801098,101801106,101836971,101836979,101837416,101837424,101855239,101855247,101922739,101922747,101922880,101922888,102030642,102030650,102074087,102074095,102159512,102159520,102161447,102161455,102196124,102196132,102198282,102198290,102199034,102199050,102244489,102244497,102249831,102262249,102262257,102280628,102280636,102287864,102287872,102343036,102343044,102343380,102343388,102402679,102402687,102430621,102430629,102469860,102469868,102515093,102515098,102517339,102517344,102545782,102545790,102617405,102617413,102638251,102638259,102673375,102685384,102685389,102690600,102690608,102693401,102693406,102718396,102721215,102721220,102741226,102741234,102762315,102762323,102774707,102774715,102778981,102778989,102787563,102807790,102807798,102867835,102867843,102903660,102903668,102909750,102909755,102921493,102921501,102932587,102932595,102944189,102944194,102944268,102944273,102944503,102944508,102973360,102973368,102988272,102988277,103000123,103000131,103011418,103011426,103117316,103117324,103176010,103176018,103176419,103176427,103212633,103212641,103242045,103242053,103325406,103325411,103343830,103343838,103351443,103351451,103354296,103354304,103355353,103355361,103355643,103355651,104530130,104531055,104531063,104569193,104569201,104573899,104573907,104599801,104599806,104615595,104615603,104661247,104661255,104764124,104764132,104792933,104792938,104869084,104869092,104874944,104874960,104940397,104940405,104962265,105072273,105072281,105276179,105276184]],"AHL0AtJym08sC-BrDSwykDkHN8LEGRq_ZQ:1757140838729",null,null,null,0,null,null,null,null,null,null,null,null,null,"https://drive.google.com",null,null,null,null,null,null,null,null,null,0,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"v2internal","https://docs.google.com",null,null,null,null,null,null,"https://sites.google.com/new/?authuser\u003d0",null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,"",null,null,null,null,null,null,null,null,null,null,null,null,6,null,null,"https://accounts.google.com/o/oauth2/auth","https://accounts.google.com/o/oauth2/postmessageRelay",null,null,null,null,78,"https://sites.google.com/new/?authuser\u003d0\u0026usp\u003dviewer_footer\u0026authuser\u003d0",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"https://www.gstatic.com/atari/embeds/83a60601c213b72fb19c1855fb0c5f26/intermediate-frame-minified.html",0,null,"v2beta",null,null,null,null,null,null,4,"https://accounts.google.com/o/oauth2/iframe",null,null,null,null,null,null,"https://710182346-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"https://sites.google.com/view/questumconsulting/home",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,0,null,"",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,0,"[{\"data\":{\"informed-publishing-overlay-promo-id\":{\"dismissed\":true,\"shownCount\":0}},\"keyPath\":[\"syncMap\",\"preferences\",\"atari-asp\",\"8\"],\"state\":{\"timestamp\":1756305234482721}},{\"data\":{\"value\":0},\"keyPath\":[\"syncMap\",\"preferences\",\"atari-estpsc\"],\"state\":{\"timestamp\":1757140838836472}},{\"data\":{\"value\":0},\"keyPath\":[\"syncMap\",\"preferences\",\"atari-sipsc\"],\"state\":{\"timestamp\":1757140838836472}}]",null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,[1757140838837,"editors.sites-viewer-frontend_20250826.02_p1","800797791","0",0,1,""],null,null,null,null,1,null,null,0,null,null,null,null,null,null,null,null,20,500,"https://domains.google.com",null,0,null,null,null,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,1,0,1,0,0,0,0,null,null,null,null,null,"https://www.google.com/calendar/embed",null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,"PROD",1,null,1,null,null,null,null,"wYCZkqoz10fBWirfAym0S1sADKbJ",null,1,{"503":0}]; window.globals = {"enableAnalytics":true,"webPropertyId":"G-CW6QN0EM6S","showDebug":false,"hashedSiteId":"e0846e1ba320748d4f04effa42eedaff79900b34c7d47f86b16dc1a906bcfcbf","normalizedPath":"view/questumconsulting/home","pageTitle":"Home"}; function gapiLoaded() {if (globals.gapiLoaded == undefined) {globals.gapiLoaded = true;} else {globals.gapiLoaded();}}window.messages = []; window.addEventListener && window.addEventListener('message', function(e) {if (window.messages && e.data && e.data.magic == 'SHIC') {window.messages.push(e);}});</script><script src="https://apis.google.com/js/client.js?onload=gapiLoaded" nonce="bhY6a47Rwk0BZmXx2K1qPQ"></script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">(function(){}).call(this);
+</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-CW6QN0EM6S" nonce="bhY6a47Rwk0BZmXx2K1qPQ"></script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+          </script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">gtag('js', new Date()); gtag('set', 'developer_id.dZWRiYj', true); gtag('config', 'G-CW6QN0EM6S');</script><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">const imageUrl =  null ;
+      function bgImgLoaded() {
+        if (!globals.headerBgImgLoaded) {
+          globals.headerBgImgLoaded = new Date().getTime();
+        } else {
+          globals.headerBgImgLoaded();
+        }
+      }
+      if (imageUrl) {
+        const img = new Image();
+        img.src = imageUrl;
+        img.onload = bgImgLoaded;
+        globals.headerBgImgExists = true;
+      } else {
+        globals.headerBgImgExists = false;
+      }
+      </script></head><body dir="ltr" itemscope itemtype="http://schema.org/WebPage" id="yDmH0d" css="yDmH0d"><div jscontroller="pc62j" jsmodel="iTeaXe" jsaction="rcuQ6b:WYd;GvneHb:og1FDd;vbaUQc:uAM5ec;"><div jscontroller="X4BaPc" jsaction="rcuQ6b:WYd;o6xM5b:Pg9eo;HuL2Hd:mHeCvf;VMhF5:FFYy5e;sk3Qmb:HI1Mdd;JIbuQc:rSzFEd(z2EeY),aSaF6e(ilzYPe);"><div jscontroller="o1L5Wb" data-sitename="questumconsulting" data-search-scope="1" data-universe="1" jsmodel="fNFZH" jsaction="Pe9H6d:cZFEp;O0t7nc:cC5KLb;WyADff:AQk9Jb;WMZaJ:VsGN3;hJluRd:UADL7b;zuqEgd:HI9w0;tr6QDd:Y8aXB;MxH79b:xDkBfb;JIbuQc:SPXMTb(uxAMZ),LjG1Ed(a6mxbb);BNPLhd:TbIyBd;fGqJod:Tb1xee;" jsname="G0jgYd"><div jsname="gYwusb" class="p9b27"></div><div jscontroller="RrXLpc" jsname="XeeWQc" role="banner" jsaction="keydown:uiKYid(OH0EC);rcuQ6b:WYd;zuqEgd:ufqpf;JIbuQc:XfTnxb(lfEfFf),AlTiYc(GeGHKb),AlTiYc(m1xNUe),zZlNMe(pZn8Oc);YqO5N:ELcyfe;"><div jsname="bF1uUb" class="BuY5Fd" jsaction="click:xVuwSc;"></div><div jsname="MVsrn" class="TbNlJb "><div role="button" class="U26fgb mUbCce fKz7Od h3nfre M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;" jsshadow jsname="GeGHKb" aria-label="Back to site" aria-disabled="false" tabindex="0" data-tooltip="Back to site" data-tooltip-vertical-offset="-12" data-tooltip-horizontal-offset="0"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -12px"><svg class="V4YR2c" viewBox="0 0 24 24" focusable="false"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg></span></span></div><div class="E2UJ5" jsname="M6JdT"><div class="rFrNMe b7AJhc zKHdkd" jscontroller="pxq3x" jsaction="clickonly:KjsqPd; focus:Jt1EX; blur:fpfTEe; input:Lg5SV" jsshadow jsname="OH0EC" aria-expanded="true"><div class="aCsJod oJeWuf"><div class="aXBtI I0VJ4d Wic03c"><span jsslot class="A37UZe qgcB3c iHd5yb"><div role="button" class="U26fgb mUbCce fKz7Od i3PoXe M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;" jsshadow jsname="lfEfFf" aria-label="Search" aria-disabled="false" tabindex="0" data-tooltip="Search" data-tooltip-vertical-offset="-12" data-tooltip-horizontal-offset="0"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -12px"><svg class="vu8Pwe" viewBox="0 0 24 24" focusable="false"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/><path d="M0 0h24v24H0z" fill="none"/></svg></span></span></div><div class="EmVfjc SKShhf" data-loadingmessage="Loading…" jscontroller="qAKInc" jsaction="animationend:kWijWc;dyRcpb:dyRcpb" jsname="aZ2wEe"><div class="Cg7hO" aria-live="assertive" jsname="vyyg5"></div><div jsname="Hxlbvc" class="xu46lf"><div class="ir3uv uWlRce co39ub"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv GFoASc Cn087"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv WpeOqd hfsr6b"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv rHV3jf EjXFBf"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div></div></div><div role="button" class="U26fgb mUbCce fKz7Od JyJRXe M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;" jsshadow jsname="m1xNUe" aria-label="Back to site" aria-disabled="false" tabindex="0" data-tooltip="Back to site" data-tooltip-vertical-offset="-12" data-tooltip-horizontal-offset="0"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -12px"><svg class="V4YR2c" viewBox="0 0 24 24" focusable="false"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg></span></span></div></span><div class="Xb9hP"><input type="search" class="whsOnd zHQkBf" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Search this site" value="" aria-disabled="false" autofocus role="combobox" data-initial-value=""/><div jsname="LwH6nd" class="ndJi5d snByac" aria-hidden="true">Search this site</div></div><span jsslot class="A37UZe sxyYjd MQL3Ob"><div role="button" class="U26fgb mUbCce fKz7Od Kk06A M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;" jsshadow jsname="pZn8Oc" aria-label="Clear search" aria-disabled="false" tabindex="0" data-tooltip="Clear search" data-tooltip-vertical-offset="-12" data-tooltip-horizontal-offset="0"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -12px"><svg class="fAUEUd" viewBox="0 0 24 24" focusable="false"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></span></div></span><div class="i9lrp mIZh1c"></div><div jsname="XmnwAc" class="OabDMe cXrdqd"></div></div></div><div class="LXRPh"><div jsname="ty6ygf" class="ovnfwe Is7Fhb"></div></div></div><div class="InHK7" jsname="aN0umc"><div class="GG9xTc" jsaction="click:wTqBkf;" jsname="e7EaC" tabindex="0" aria-label="Embedded Files"><svg class="vu8Pwe KYLCw" viewBox="0 0 24 24" focusable="false"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/><path d="M0 0h24v24H0z" fill="none"/></svg><span class="HCIIgf">Embedded Files</span></div></div></div></div></div></div><div jsname="tiN4bf"><style nonce="Wc0tBir-rpgwzVZz3T-yug">.rrJNTc{opacity: 0;}.bKy5e{pointer-events: none; position: absolute; top: 0;}</style><div class="bKy5e"><div class="rrJNTc" tabindex="-1"><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper='true'><button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf LjDxcd XhPA0b LQeN7 WsSUlf jz7fPb" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd;" data-idom-class="LjDxcd XhPA0b LQeN7 WsSUlf jz7fPb" jsname="z2EeY" tabindex="0"><div class="VfPpkd-Jh9lGc"></div><div class="VfPpkd-J1Ukfc-LhBDec"></div><div class="VfPpkd-RLmnJb"></div><span jsname="V67aGc" class="VfPpkd-vQzf8d">Skip to main content</span></button></div><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper='true'><button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf LjDxcd XhPA0b LQeN7 WsSUlf br90J" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd;" data-idom-class="LjDxcd XhPA0b LQeN7 WsSUlf br90J" jsname="ilzYPe" tabindex="0"><div class="VfPpkd-Jh9lGc"></div><div class="VfPpkd-J1Ukfc-LhBDec"></div><div class="VfPpkd-RLmnJb"></div><span jsname="V67aGc" class="VfPpkd-vQzf8d">Skip to navigation</span></button></div></div></div><div class="M63kCb N63NQ"></div><div class="QZ3zWd"><div class="fktJzd AKpWA vS6Uxe fOU46b G9Qloe XeSM4 XxIgdb" jsname="UzWXSb" data-uses-custom-theme="false" data-legacy-theme-name="Level" data-legacy-theme-font-kit="Sans" data-legacy-theme-color-kit="LightYellow" jscontroller="Md9ENb" jsaction="gsiSmd:Ffcznf;yj5fUd:cpPetb;HNXL3:q0Vyke;e2SXKd:IPDu5e;BdXpgd:nhk7K;rcuQ6b:WYd;"><header id="atIdViewHeader"><div style="position:fixed; width: 100%; z-index: 100;"><div id="docs-banner-container"><div id="docs-banners"><div id="HB1eCd-mzNpsf-r8s4j-ORHb"></div><div id="HB1eCd-TZk80d-r8s4j-ORHb" aria-live="assertive" aria-atomic="true"></div></div><div class="HB1eCd-Vkfede-NBtyUd-PvRhvb-LwH6nd"></div></div></div><div class="BbxBP GBy4H K5Zlne" jsname="WA9qLc" jscontroller="RQOkef" jsaction="rcuQ6b:ywL4Jf;VbOlFf:ywL4Jf;FaOgy:ywL4Jf; keydown:Hq2uPe; wheel:Ut4Ahc;" data-top-navigation="true" data-is-preview="false"><div class="VLoccc K5Zlne ELAV1d U8eYrb" style="background-color:rgb(0, 0, 0);" jsname="rtFGi"><div class="Pvc6xe"><div jsname="I8J07e" class="TlfmSc YSH9J"><a class="GAuSPc" jsname="jIujaf" href="/view/questumconsulting/home?authuser=0"><img src="https://lh6.googleusercontent.com/h1a6D5jYmwMsokf2kr0zoF6y0MbGNhDdnsBtI7MwitVpm7HZ4mYcSaSgSiof3piCFbJSdiNLnk27jRb7C3bMuHhicEgbxn3ZTt9RlLPeWGN1dkyJI5qlrXNLxLN2o6gEPPjbx9iBvcM=w16383" class="lzy1Td" role="img" aria-label="Site home" jsname="SwcDWb"></a>&nbsp;</div></div><div jsname="mADGA" class="zDUgLc" style="background-color:rgb(0, 0, 0);"></div></div></div></header><div jsname="ZBtY8b" tabindex="-1" class="UtePc RCETm SwuGbc" dir="ltr"><section id="h.70f3b8c514701552_21" class="yaqOZd qeLZfd"><div class="IFuOkc"></div><div class="mYVXT"><div class="LS81yb VICjCf j5pSsc db35Fc" tabindex="-1"><div class="hJDwNd-AhqUyc-uQSCkd Ft7HRd-AhqUyc-uQSCkd purZT-AhqUyc-II5mzb ZcASvf-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c Ktthjf-AhqUyc-qWD73c JNdkSc SQVYQc"><div class="JNdkSc-SmKAyb LkDMRd"><div class="" jscontroller="sGwD4d" jsaction="zXBUYb:zTPCnb;zQF9Uc:Qxe3nd;" jsname="F57UId"><div class="oKdM2c ZZyype Kzv0Me"><div id="h.70f3b8c514701552_18" class="hJDwNd-AhqUyc-uQSCkd Ft7HRd-AhqUyc-uQSCkd jXK9ad D2fZ2 zu5uec OjCsFc dmUFtb wHaque g5GTcb"><div class="jXK9ad-SmKAyb"><div class="tyJCtd OWlOyc baZpAe"><div jscontroller="VYKRW" jsaction="rcuQ6b:rcuQ6b;"><div class="WIdY2d M1aSXe"><div jsname="WXxXjd" style="padding-top: 137.2616984402%"></div><div class="YMEQtf"><div jsname="jkaScf" jscontroller="szRU7e" class="w536ob" data-enable-interaction="true" data-url="https://185033684-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html" data-code="
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Indian GAAP Financial Statements Simulator&lt;/title&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .game-area {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .controls {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .control-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        select, button {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-left: auto;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 5px 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .question-panel {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .question-header {
+            font-size: 1.3em;
+            color: #495057;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .transaction-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .transaction-title {
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+
+        .transaction-details {
+            color: #6c757d;
+            line-height: 1.5;
+        }
+
+        .answer-section {
+            margin-top: 20px;
+        }
+
+        .answer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .answer-btn {
+            padding: 12px;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: left;
+        }
+
+        .answer-btn:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .answer-btn.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .answer-btn.correct {
+            border-color: #28a745;
+            background: #28a745;
+            color: white;
+        }
+
+        .answer-btn.incorrect {
+            border-color: #dc3545;
+            background: #dc3545;
+            color: white;
+        }
+
+        .statements-panel {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .statement-tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #6c757d;
+            font-weight: 500;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .tab.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .statement-content {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .statement-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .statement-table th,
+        .statement-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .statement-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .amount {
+            text-align: right;
+            font-family: monospace;
+        }
+
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .feedback.correct {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .explanation {
+            margin-top: 10px;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            background: #e9ecef;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            position: relative;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            transition: all 0.5s ease;
+            position: relative;
+        }
+
+        .progress-fill.towards-star {
+            background: linear-gradient(90deg, #007bff, #28a745);
+            box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+        }
+
+        .progress-fill.star-achieved {
+            background: linear-gradient(90deg, #28a745, #20c997);
+            box-shadow: 0 0 15px rgba(40, 167, 69, 0.8);
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            color: #495057;
+        }
+
+        .progress-text {
+            font-weight: 500;
+        }
+
+        .star-celebration {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            animation: starPop 0.6s ease-out;
+            pointer-events: none;
+        }
+
+        @keyframes starPop {
+            0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+            50% { transform: translate(-50%, -50%) scale(1.5); opacity: 1; }
+            100% { transform: translate(-50%, -50%) scale(1); opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px;
+            }
+            
+            .answer-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .control-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .stats {
+                margin-left: 0;
+                justify-content: center;
+            }
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;header&quot;&gt;
+            &lt;h1&gt;🏦 Indian GAAP Financial Statements Simulator&lt;/h1&gt;
+            &lt;p&gt;Master Financial Statement Line Items for Big 4 Interviews&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;game-area&quot;&gt;
+            &lt;div class=&quot;controls&quot;&gt;
+                &lt;div class=&quot;control-row&quot;&gt;
+                    &lt;select id=&quot;difficulty&quot;&gt;
+                        &lt;option value=&quot;basic&quot;&gt;Basic Level&lt;/option&gt;
+                        &lt;option value=&quot;intermediate&quot;&gt;Intermediate Level&lt;/option&gt;
+                        &lt;option value=&quot;advanced&quot;&gt;Advanced Level&lt;/option&gt;
+                    &lt;/select&gt;
+                    
+                    &lt;select id=&quot;statementType&quot;&gt;
+                        &lt;option value=&quot;all&quot;&gt;All Statements&lt;/option&gt;
+                        &lt;option value=&quot;balanceSheet&quot;&gt;Balance Sheet&lt;/option&gt;
+                        &lt;option value=&quot;profitLoss&quot;&gt;Profit &amp; Loss&lt;/option&gt;
+                        &lt;option value=&quot;cashFlow&quot;&gt;Cash Flow&lt;/option&gt;
+                    &lt;/select&gt;
+                    
+                    &lt;button onclick=&quot;newQuestion()&quot;&gt;New Question&lt;/button&gt;
+                    &lt;button onclick=&quot;showHint()&quot;&gt;Show Hint&lt;/button&gt;
+                    
+                    &lt;div class=&quot;stats&quot;&gt;
+                        &lt;div class=&quot;stat-item&quot;&gt;
+                            &lt;div class=&quot;stat-value&quot; id=&quot;score&quot;&gt;0&lt;/div&gt;
+                            &lt;div&gt;Score&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;stat-item&quot;&gt;
+                            &lt;div class=&quot;stat-value&quot; id=&quot;streak&quot;&gt;0&lt;/div&gt;
+                            &lt;div&gt;Streak&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;stat-item&quot;&gt;
+                            &lt;div class=&quot;stat-value&quot; id=&quot;accuracy&quot;&gt;0%&lt;/div&gt;
+                            &lt;div&gt;Accuracy&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;stat-item&quot;&gt;
+                            &lt;div class=&quot;stat-value&quot; id=&quot;stars&quot;&gt;0 ⭐&lt;/div&gt;
+                            &lt;div&gt;Stars&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+      &lt;div class=&quot;progress-info centered&quot;&gt; 
+    &lt;span class=&quot;progress-text&quot; id=&quot;progressText&quot;&gt;Get 5 correct answers in a row to earn a star!&lt;/span&gt; 
+    &lt;span id=&quot;progressCounter&quot;&gt;0/5&lt;/span&gt; 
+&lt;/div&gt;
+&lt;/div&gt;
+            &lt;div class=&quot;progress-bar&quot;&gt;
+                &lt;div class=&quot;progress-fill&quot; id=&quot;progressFill&quot; style=&quot;width: 0%&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;main-content&quot;&gt;
+                &lt;div class=&quot;question-panel&quot;&gt;
+                    &lt;div class=&quot;question-header&quot;&gt;Transaction Scenario&lt;/div&gt;
+                    &lt;div id=&quot;questionContent&quot;&gt;&lt;/div&gt;
+                    &lt;div class=&quot;answer-section&quot;&gt;
+                        &lt;div&gt;&lt;strong&gt;Where should this item be classified?&lt;/strong&gt;&lt;/div&gt;
+                        &lt;div class=&quot;answer-grid&quot; id=&quot;answerOptions&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id=&quot;feedback&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;statements-panel&quot;&gt;
+                    &lt;div class=&quot;statement-tabs&quot;&gt;
+                        &lt;button class=&quot;tab active&quot; onclick=&quot;showStatement(&#39;balanceSheet&#39;)&quot;&gt;Balance Sheet&lt;/button&gt;
+                        &lt;button class=&quot;tab&quot; onclick=&quot;showStatement(&#39;profitLoss&#39;)&quot;&gt;P&amp;L Statement&lt;/button&gt;
+                        &lt;button class=&quot;tab&quot; onclick=&quot;showStatement(&#39;cashFlow&#39;)&quot;&gt;Cash Flow&lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;statement-content&quot; id=&quot;statementContent&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        let gameState = {
+            score: 0,
+            totalQuestions: 0,
+            correctAnswers: 0,
+            streak: 0,
+            stars: 0,
+            progressTowardsStar: 0,
+            currentQuestion: null,
+            activeStatement: &#39;balanceSheet&#39;
+        };
+
+        const questions = {
+            basic: [
+                {
+                    scenario: &quot;Purchase of Office Equipment&quot;,
+                    details: &quot;Company purchased office furniture worth ₹2,50,000 by cheque. The furniture has an estimated useful life of 10 years.&quot;,
+                    options: [
+                        &quot;Current Assets&quot;,
+                        &quot;Fixed Assets - PPE&quot;,
+                        &quot;Current Liabilities&quot;,
+                        &quot;Operating Expenses&quot;
+                    ],
+                    correct: 1,
+                    explanation: &quot;Office furniture is a tangible fixed asset (Property, Plant &amp; Equipment) as per AS-10. It provides economic benefits over multiple accounting periods.&quot;,
+                    hint: &quot;Think about the useful life and nature of the asset.&quot;
+                },
+                {
+                    scenario: &quot;Sales Revenue Recognition&quot;,
+                    details: &quot;Company sold goods worth ₹5,00,000 on credit. The goods were delivered and risk has passed to the buyer.&quot;,
+                    options: [
+                        &quot;Cash &amp; Cash Equivalents&quot;,
+                        &quot;Revenue from Operations&quot;,
+                        &quot;Other Income&quot;,
+                        &quot;Sundry Debtors&quot;
+                    ],
+                    correct: 1,
+                    explanation: &quot;As per AS-9, revenue should be recognized when goods are delivered and significant risks are transferred. This is revenue from main business operations.&quot;,
+                    hint: &quot;Consider when revenue should be recognized as per AS-9.&quot;
+                },
+                {
+                    scenario: &quot;Salary Payable&quot;,
+                    details: &quot;Company owes ₹3,50,000 as salary for the month of March 2024, which will be paid in April 2024.&quot;,
+                    options: [
+                        &quot;Current Liabilities&quot;,
+                        &quot;Long-term Liabilities&quot;,
+                        &quot;Operating Expenses&quot;,
+                        &quot;Provisions&quot;
+                    ],
+                    correct: 0,
+                    explanation: &quot;Outstanding salary is a current liability as it&#39;s payable within one year. It represents an obligation to employees for services already rendered.&quot;,
+                    hint: &quot;Consider the timeline for payment and nature of obligation.&quot;
+                }
+            ],
+            intermediate: [
+                {
+                    scenario: &quot;Provision for Doubtful Debts&quot;,
+                    details: &quot;Company has trade receivables of ₹10,00,000. Based on aging analysis, 5% is estimated to be doubtful. Existing provision is ₹30,000.&quot;,
+                    options: [
+                        &quot;Bad Debts Expense ₹50,000&quot;,
+                        &quot;Provision Expense ₹20,000&quot;,
+                        &quot;Direct write-off ₹50,000&quot;,
+                        &quot;No entry required&quot;
+                    ],
+                    correct: 1,
+                    explanation: &quot;As per AS-4, provision required is ₹50,000 (5% of ₹10,00,000). Since existing provision is ₹30,000, additional provision of ₹20,000 is needed.&quot;,
+                    hint: &quot;Calculate the required provision and compare with existing provision.&quot;
+                },
+                {
+                    scenario: &quot;Foreign Exchange Transaction&quot;,
+                    details: &quot;Company imported goods worth USD 10,000 when exchange rate was ₹75. At year-end, rate is ₹78. Payment is pending.&quot;,
+                    options: [
+                        &quot;Foreign Exchange Loss ₹30,000&quot;,
+                        &quot;Creditors increase by ₹30,000&quot;,
+                        &quot;Both A and B&quot;,
+                        &quot;No adjustment needed&quot;
+                    ],
+                    correct: 2,
+                    explanation: &quot;As per AS-11, monetary items in foreign currency should be restated at closing rate. Loss of ₹30,000 (10,000 × 3) and creditor adjustment required.&quot;,
+                    hint: &quot;Apply AS-11 for foreign currency monetary items at year-end.&quot;
+                },
+                {
+                    scenario: &quot;Depreciation Policy Change&quot;,
+                    details: &quot;Company changed depreciation method from SLM to WDV for machinery. Book value ₹8,00,000, remaining life 4 years, WDV rate 25%.&quot;,
+                    options: [
+                        &quot;Prospective adjustment only&quot;,
+                        &quot;Retrospective adjustment&quot;,
+                        &quot;Prior period item&quot;,
+                        &quot;Extraordinary item&quot;
+                    ],
+                    correct: 0,
+                    explanation: &quot;As per AS-5, change in depreciation method is a change in accounting estimate and should be applied prospectively from current year.&quot;,
+                    hint: &quot;Distinguish between accounting policy and accounting estimate changes.&quot;
+                }
+            ],
+            advanced: [
+                {
+                    scenario: &quot;Deferred Tax Asset&quot;,
+                    details: &quot;Company has tax loss carry forward of ₹50,00,000. Management is confident of future profits. Tax rate is 30%.&quot;,
+                    options: [
+                        &quot;Deferred Tax Asset ₹15,00,000&quot;,
+                        &quot;Tax Expense reduction ₹15,00,000&quot;,
+                        &quot;Both A and B&quot;,
+                        &quot;No recognition due to uncertainty&quot;
+                    ],
+                    correct: 2,
+                    explanation: &quot;As per AS-22, deferred tax asset on tax losses should be recognized only when future taxable profits are virtually certain. Both DTA and tax expense impact occur.&quot;,
+                    hint: &quot;Consider AS-22 requirements for recognizing deferred tax assets.&quot;
+                },
+                {
+                    scenario: &quot;Impairment Assessment&quot;,
+                    details: &quot;CGU carrying amount ₹80,00,000. Fair value less costs to sell ₹70,00,000. Value in use ₹75,00,000.&quot;,
+                    options: [
+                        &quot;Impairment Loss ₹5,00,000&quot;,
+                        &quot;Impairment Loss ₹10,00,000&quot;,
+                        &quot;No impairment required&quot;,
+                        &quot;Cannot determine&quot;
+                    ],
+                    correct: 0,
+                    explanation: &quot;As per AS-28, recoverable amount is higher of fair value less costs to sell (₹70L) and value in use (₹75L). Impairment = ₹80L - ₹75L = ₹5L.&quot;,
+                    hint: &quot;Calculate recoverable amount as higher of the two values.&quot;
+                },
+                {
+                    scenario: &quot;Revenue Recognition - Multiple Elements&quot;,
+                    details: &quot;Software company sells license (₹10,00,000) with 3-year support (₹3,00,000). Support is separately sellable at ₹1,20,000/year.&quot;,
+                    options: [
+                        &quot;Recognize ₹13,00,000 immediately&quot;,
+                        &quot;License ₹9,40,000 now, Support ₹3,60,000 over 3 years&quot;,
+                        &quot;Defer entire ₹13,00,000 over 3 years&quot;,
+                        &quot;Recognize ₹10,00,000 now, ₹3,00,000 over 3 years&quot;
+                    ],
+                    correct: 1,
+                    explanation: &quot;Multiple element arrangement requires allocation based on relative fair values. Support fair value is ₹3,60,000, so license gets ₹9,40,000.&quot;,
+                    hint: &quot;Allocate total consideration based on relative standalone selling prices.&quot;
+                }
+            ]
+        };
+
+        const balanceSheetTemplate = {
+            &quot;EQUITY AND LIABILITIES&quot;: {
+                &quot;Shareholders&#39; Funds&quot;: [&quot;Share Capital&quot;, &quot;Reserves &amp; Surplus&quot;],
+                &quot;Non-Current Liabilities&quot;: [&quot;Long-term Borrowings&quot;, &quot;Deferred Tax Liability&quot;, &quot;Long-term Provisions&quot;],
+                &quot;Current Liabilities&quot;: [&quot;Short-term Borrowings&quot;, &quot;Trade Payables&quot;, &quot;Other Current Liabilities&quot;, &quot;Short-term Provisions&quot;]
+            },
+            &quot;ASSETS&quot;: {
+                &quot;Non-Current Assets&quot;: [&quot;Fixed Assets - PPE&quot;, &quot;Intangible Assets&quot;, &quot;Capital WIP&quot;, &quot;Non-current Investments&quot;, &quot;Deferred Tax Assets&quot;, &quot;Long-term Loans &amp; Advances&quot;],
+                &quot;Current Assets&quot;: [&quot;Current Investments&quot;, &quot;Inventories&quot;, &quot;Trade Receivables&quot;, &quot;Cash &amp; Cash Equivalents&quot;, &quot;Short-term Loans &amp; Advances&quot;, &quot;Other Current Assets&quot;]
+            }
+        };
+
+        function initializeGame() {
+            showStatement(&#39;balanceSheet&#39;);
+            newQuestion();
+            updateStats();
+            updateProgressBar();
+        }
+
+        function newQuestion() {
+            const difficulty = document.getElementById(&#39;difficulty&#39;).value;
+            const questionPool = questions[difficulty];
+            gameState.currentQuestion = questionPool[Math.floor(Math.random() * questionPool.length)];
+            
+            displayQuestion();
+            clearFeedback();
+        }
+
+        function displayQuestion() {
+            const q = gameState.currentQuestion;
+            const questionContent = document.getElementById(&#39;questionContent&#39;);
+            
+            questionContent.innerHTML = `
+                &lt;div class=&quot;transaction-card&quot;&gt;
+                    &lt;div class=&quot;transaction-title&quot;&gt;${q.scenario}&lt;/div&gt;
+                    &lt;div class=&quot;transaction-details&quot;&gt;${q.details}&lt;/div&gt;
+                &lt;/div&gt;
+            `;
+
+            const answerOptions = document.getElementById(&#39;answerOptions&#39;);
+            answerOptions.innerHTML = &#39;&#39;;
+            
+            q.options.forEach((option, index) =&gt; {
+                const btn = document.createElement(&#39;div&#39;);
+                btn.className = &#39;answer-btn&#39;;
+                btn.textContent = option;
+                btn.onclick = () =&gt; selectAnswer(index);
+                answerOptions.appendChild(btn);
+            });
+        }
+
+        function selectAnswer(selectedIndex) {
+            const q = gameState.currentQuestion;
+            const buttons = document.querySelectorAll(&#39;.answer-btn&#39;);
+            
+            // Clear previous selections
+            buttons.forEach(btn =&gt; {
+                btn.classList.remove(&#39;selected&#39;, &#39;correct&#39;, &#39;incorrect&#39;);
+            });
+            
+            // Mark selected answer
+            buttons[selectedIndex].classList.add(&#39;selected&#39;);
+            
+            // Check if correct
+            gameState.totalQuestions++;
+            
+            if (selectedIndex === q.correct) {
+                buttons[selectedIndex].classList.add(&#39;correct&#39;);
+                gameState.correctAnswers++;
+                gameState.score += getDifficultyPoints();
+                gameState.streak++;
+                gameState.progressTowardsStar++;
+                
+                // Check if earned a star
+                if (gameState.progressTowardsStar &gt;= 5) {
+                    gameState.stars++;
+                    gameState.progressTowardsStar = 0;
+                    showStarCelebration();
+                }
+                
+                showFeedback(true, q.explanation);
+            } else {
+                buttons[selectedIndex].classList.add(&#39;incorrect&#39;);
+                buttons[q.correct].classList.add(&#39;correct&#39;);
+                gameState.streak = 0;
+                
+                // Reduce progress towards star (but don&#39;t go below 0)
+                gameState.progressTowardsStar = Math.max(0, gameState.progressTowardsStar - 1);
+                
+                showFeedback(false, q.explanation);
+            }
+            
+            updateStats();
+            updateProgressBar();
+        }
+
+        function getDifficultyPoints() {
+            const difficulty = document.getElementById(&#39;difficulty&#39;).value;
+            const points = { basic: 10, intermediate: 20, advanced: 30 };
+            return points[difficulty] || 10;
+        }
+
+        function showFeedback(isCorrect, explanation) {
+            const feedback = document.getElementById(&#39;feedback&#39;);
+            feedback.className = `feedback ${isCorrect ? &#39;correct&#39; : &#39;incorrect&#39;}`;
+            feedback.innerHTML = `
+                &lt;div&gt;&lt;strong&gt;${isCorrect ? &#39;✅ Correct!&#39; : &#39;❌ Incorrect&#39;}&lt;/strong&gt;&lt;/div&gt;
+                &lt;div class=&quot;explanation&quot;&gt;${explanation}&lt;/div&gt;
+            `;
+        }
+
+        function clearFeedback() {
+            document.getElementById(&#39;feedback&#39;).innerHTML = &#39;&#39;;
+        }
+
+        function showHint() {
+            const q = gameState.currentQuestion;
+            if (q &amp;&amp; q.hint) {
+                // Create a better hint display
+                const feedback = document.getElementById(&#39;feedback&#39;);
+                feedback.className = &#39;feedback&#39;;
+                feedback.style.background = &#39;#fff3cd&#39;;
+                feedback.style.color = &#39;#856404&#39;;
+                feedback.style.border = &#39;1px solid #ffeaa7&#39;;
+                feedback.innerHTML = `
+                    &lt;div&gt;&lt;strong&gt;💡 Hint&lt;/strong&gt;&lt;/div&gt;
+                    &lt;div class=&quot;explanation&quot;&gt;${q.hint}&lt;/div&gt;
+                `;
+            } else {
+                alert(&#39;Please select a question first by clicking &quot;New Question&quot;!&#39;);
+            }
+        }
+
+        function updateStats() {
+            document.getElementById(&#39;score&#39;).textContent = gameState.score;
+            document.getElementById(&#39;streak&#39;).textContent = gameState.streak;
+            
+            const accuracy = gameState.totalQuestions &gt; 0 
+                ? Math.round((gameState.correctAnswers / gameState.totalQuestions) * 100)
+                : 0;
+            document.getElementById(&#39;accuracy&#39;).textContent = accuracy + &#39;%&#39;;
+            
+            // Update stars display
+            const starsText = gameState.stars &gt; 0 
+                ? `${gameState.stars} ${&#39;⭐&#39;.repeat(Math.min(gameState.stars, 5))}` 
+                : &#39;0 ⭐&#39;;
+            document.getElementById(&#39;stars&#39;).textContent = starsText;
+        }
+
+        function updateProgressBar() {
+            const progressFill = document.getElementById(&#39;progressFill&#39;);
+            const progressText = document.getElementById(&#39;progressText&#39;);
+            const progressCounter = document.getElementById(&#39;progressCounter&#39;);
+            
+            // Calculate progress percentage (0-100% for each star)
+            const progressPercent = (gameState.progressTowardsStar / 5) * 100;
+            
+            // Update counter
+            progressCounter.textContent = `${gameState.progressTowardsStar}/5`;
+            
+            // Update progress bar width
+            progressFill.style.width = progressPercent + &#39;%&#39;;
+            
+            // Update visual style and text based on progress
+            progressFill.classList.remove(&#39;towards-star&#39;, &#39;star-achieved&#39;);
+            
+            if (gameState.progressTowardsStar === 0) {
+                progressText.textContent = &#39;Get 5 correct answers in a row to earn a star!&#39;;
+                progressFill.style.background = &#39;linear-gradient(90deg, #007bff, #0056b3)&#39;;
+            } else if (gameState.progressTowardsStar &gt;= 3) {
+                progressText.textContent = `${5 - gameState.progressTowardsStar} more correct answers for a star!`;
+                progressFill.classList.add(&#39;towards-star&#39;);
+            } else {
+                progressText.textContent = `${gameState.progressTowardsStar} correct in a row - keep going!`;
+                progressFill.style.background = &#39;linear-gradient(90deg, #007bff, #17a2b8)&#39;;
+            }
+        }
+
+        function showStarCelebration() {
+            const progressBar = document.querySelector(&#39;.progress-bar&#39;);
+            const celebration = document.createElement(&#39;div&#39;);
+            celebration.className = &#39;star-celebration&#39;;
+            celebration.textContent = &#39;⭐&#39;;
+            
+            progressBar.style.position = &#39;relative&#39;;
+            progressBar.appendChild(celebration);
+            
+            // Update progress bar to show achievement
+            const progressFill = document.getElementById(&#39;progressFill&#39;);
+            progressFill.classList.add(&#39;star-achieved&#39;);
+            
+            // Show achievement message
+            const progressText = document.getElementById(&#39;progressText&#39;);
+            progressText.textContent = &#39;🎉 Star Earned! Great job on 5 correct answers!&#39;;
+            
+            // Remove celebration element after animation
+            setTimeout(() =&gt; {
+                if (celebration.parentNode) {
+                    celebration.parentNode.removeChild(celebration);
+                }
+                // Reset progress text after celebration
+                setTimeout(() =&gt; {
+                    updateProgressBar();
+                }, 1000);
+            }, 600);
+        }
+
+        function showStatement(type) {
+            // Update tab active state
+            document.querySelectorAll(&#39;.tab&#39;).forEach(tab =&gt; tab.classList.remove(&#39;active&#39;));
+            document.querySelector(`[onclick=&quot;showStatement(&#39;${type}&#39;)&quot;]`).classList.add(&#39;active&#39;);
+            
+            gameState.activeStatement = type;
+            const content = document.getElementById(&#39;statementContent&#39;);
+            
+            if (type === &#39;balanceSheet&#39;) {
+                content.innerHTML = generateBalanceSheet();
+            } else if (type === &#39;profitLoss&#39;) {
+                content.innerHTML = generateProfitLoss();
+            } else if (type === &#39;cashFlow&#39;) {
+                content.innerHTML = generateCashFlow();
+            }
+        }
+
+        function generateBalanceSheet() {
+            return `
+                &lt;table class=&quot;statement-table&quot;&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;strong&gt;Balance Sheet Structure (Indian GAAP)&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;EQUITY AND LIABILITIES&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Shareholders&#39; Funds&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Share Capital&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Reserves &amp; Surplus&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Non-Current Liabilities&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Long-term Borrowings&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Deferred Tax Liability&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Long-term Provisions&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Current Liabilities&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Short-term Borrowings&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Trade Payables&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Other Current Liabilities&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Short-term Provisions&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;TOTAL EQUITY AND LIABILITIES&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;ASSETS&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Non-Current Assets&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Fixed Assets - PPE&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Intangible Assets&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Capital Work-in-Progress&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Non-current Investments&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Deferred Tax Assets&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Current Assets&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Current Investments&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Inventories&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Trade Receivables&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Cash &amp; Cash Equivalents&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Short-term Loans &amp; Advances&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;TOTAL ASSETS&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            `;
+        }
+
+        function generateProfitLoss() {
+            return `
+                &lt;table class=&quot;statement-table&quot;&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;strong&gt;Statement of Profit &amp; Loss (Indian GAAP)&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;INCOME&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Revenue from Operations&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Other Income&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Total Income&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;EXPENSES&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Cost of Materials Consumed&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Changes in Inventories&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Employee Benefit Expenses&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Finance Costs&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Depreciation &amp; Amortization&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Other Expenses&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Total Expenses&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Profit Before Tax&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Tax Expense:&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Current Tax&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Deferred Tax&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Profit After Tax&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Earnings Per Share (Basic)&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX.XX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Earnings Per Share (Diluted)&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX.XX&lt;/td&gt;&lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            `;
+        }
+
+        function generateCashFlow() {
+            return `
+                &lt;table class=&quot;statement-table&quot;&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;&lt;strong&gt;Cash Flow Statement (Indian GAAP)&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;A. OPERATING ACTIVITIES&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Net Profit Before Tax&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Adjustments for:&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Depreciation&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Interest Expense&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Interest Income&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Operating Profit Before Working Capital Changes&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Changes in Working Capital:&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Trade Receivables&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Inventories&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;Trade Payables&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Cash Generated from Operations&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Direct Taxes Paid&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Net Cash from Operating Activities&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;B. INVESTING ACTIVITIES&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Purchase of Fixed Assets&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Sale of Fixed Assets&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Purchase of Investments&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Interest Received&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Net Cash from Investing Activities&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;C. FINANCING ACTIVITIES&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Proceeds from Share Capital&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Proceeds from Borrowings&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Repayment of Borrowings&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Interest Paid&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Dividends Paid&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;(₹ XX,XX,XXX)&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Net Cash from Financing Activities&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Net Increase in Cash &amp; Cash Equivalents&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Cash &amp; Cash Equivalents at Beginning&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cash &amp; Cash Equivalents at End&lt;/strong&gt;&lt;/td&gt;&lt;td class=&quot;amount&quot;&gt;₹ XX,XX,XXX&lt;/td&gt;&lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            `;
+        }
+
+        // Initialize the game when page loads
+        window.onload = function() {
+            initializeGame();
+        };
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;" jsaction="rcuQ6b:WYd;"><div class="EmVfjc qs41qe UzswCe" data-loadingmessage=" " jscontroller="qAKInc" jsaction="animationend:kWijWc;dyRcpb:dyRcpb" data-active="true" jsname="Hy6Uif"><div class="Cg7hO" aria-live="assertive" jsname="vyyg5"> </div><div jsname="Hxlbvc" class="xu46lf"><div class="ir3uv uWlRce co39ub"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv GFoASc Cn087"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv WpeOqd hfsr6b"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div><div class="ir3uv rHV3jf EjXFBf"><div class="xq3j6 ERcjC"><div class="X6jHbb GOJTSe"></div></div><div class="HBnAAc"><div class="X6jHbb GOJTSe"></div></div><div class="xq3j6 dj3yTd"><div class="X6jHbb GOJTSe"></div></div></div></div></div><iframe jsname="WMhH6e" class=" YMEQtf" frameborder="0" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation" id="70f3b8c514701552_18" name="70f3b8c514701552_18" scrolling="no" title="Custom embed" aria-label="Custom embed"></iframe></div></div></div></div></div></div></div></div></div></div></div></div></div></section></div><div class="Xpil1b xgQ6eb"></div><footer jsname="yePe5c"><section id="h.70f3b8c514701552_4" class="yaqOZd"><div class="IFuOkc"></div><div class="mYVXT"><div class="LS81yb VICjCf j5pSsc db35Fc" tabindex="-1"><div class="hJDwNd-AhqUyc-uQSCkd Ft7HRd-AhqUyc-uQSCkd purZT-AhqUyc-II5mzb ZcASvf-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c Ktthjf-AhqUyc-qWD73c JNdkSc SQVYQc yYI8W HQwdzb"><div class="JNdkSc-SmKAyb LkDMRd"><div class="" jscontroller="sGwD4d" jsaction="zXBUYb:zTPCnb;zQF9Uc:Qxe3nd;" jsname="F57UId"><div class="oKdM2c ZZyype Kzv0Me"><div id="h.70f3b8c514701552_10" class="hJDwNd-AhqUyc-uQSCkd Ft7HRd-AhqUyc-uQSCkd jXK9ad D2fZ2 zu5uec OjCsFc dmUFtb"><div class="jXK9ad-SmKAyb"><div class="tyJCtd mGzaTb Depvyb baZpAe"><div id="h.mszbilwge6ju" class="GV3q8e yMxPgf  aP9Z7e"></div><h3 id="h.mszbilwge6ju_l" dir="ltr" class="zfr3Q OmQG5e CDt4Ke " style="line-height: 1.56; text-align: center;"><div jscontroller="Ae65rd" jsaction="touchstart:UrsOsc; click:KjsqPd; focusout:QZoaZ; mouseover:y0pDld; mouseout:dq0hvd;fv1Rjc:jbFSOd;CrfLRd:SzACGe;" class="CjVfdc"><div class="PPhIP rviiZ" jsname="haAclf"><div role="presentation" class="U26fgb mUbCce fKz7Od LRAOtb Znu9nd M9Bg4d" jscontroller="mxS5xe" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;" jsshadow aria-describedby="h.mszbilwge6ju_l" aria-label="Copy heading link" aria-disabled="false" data-tooltip="Copy heading link" aria-hidden="true" data-tooltip-position="top" data-tooltip-vertical-offset="12" data-tooltip-horizontal-offset="0"><a class="FKF6mc TpQm9d" href="#h.mszbilwge6ju" aria-label="Copy heading link" jsname="hiK3ld" role="button" aria-describedby="h.mszbilwge6ju_l"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -11px"><svg class="OUGEr QdAdhf" width="22px" height="22px" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg></span></span></a></div></div><span class="C9DxTc " style="color: #000000; font-family: Roboto, Arial; font-size: 13.999999999999998pt; font-weight: 400; vertical-align: baseline;">Copyright © 2025 </span><span class="C9DxTc " style="color: #000000; font-family: Arial; font-size: 13.999999999999998pt; font-weight: 400; vertical-align: baseline;">QUESTUM ™</span><span class="C9DxTc " style="color: #000000; font-family: Roboto, Arial; font-size: 13.999999999999998pt; font-weight: 400; vertical-align: baseline;"> CONSULTING LLP. All rights reserved.</span></div></h3><br></div></div></div></div><div class="oKdM2c ZZyype"><div id="h.70f3b8c514701552_12" class="hJDwNd-AhqUyc-uQSCkd Ft7HRd-AhqUyc-uQSCkd jXK9ad D2fZ2 zu5uec wHaque g5GTcb"><div class="jXK9ad-SmKAyb"><div class="tyJCtd mGzaTb Depvyb baZpAe"></div></div></div></div></div></div></div></div></div></section></footer><div jscontroller="j1RDQb" jsaction="rcuQ6b:rcuQ6b;MxH79b:JdcaS;FaOgy:XuHpsb;" class="dZA9kd ynRLnc" data-last-updated-at-time="1752233659697" data-is-preview="false"><div role="button" class="U26fgb JRtysb WzwrXb I12f0b K2mXPb zXBiaf ynRLnc" jscontroller="iSvg6e" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;;keydown:I481le;" jsshadow jsname="Bg3gkf" aria-label="Site actions" aria-disabled="false" tabindex="0" aria-haspopup="true" aria-expanded="false" data-menu-corner="bottom-start" data-anchor-corner="top-start"><div class="NWlf3e MbhUzd" jsname="ksKsZd"></div><span jsslot class="MhXXcc oJeWuf"><span class="Lw7GHd snByac"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class=" NMm5M"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/></svg></span></span><div jsname="xl07Ob" style="display:none" aria-hidden="true"><div class="JPdR6b hVNH5c" jscontroller="uY3Nvd" jsaction="IpSVtb:TvD9Pc;fEN2Ze:xzS4ub;frq95c:LNeFm;cFpp9e:J9oOtd; click:H8nU8b; mouseup:H8nU8b; keydown:I481le; keypress:Kr2w4b; blur:O22p3e; focus:H8nU8b" role="menu" tabindex="0" style="position:fixed"><div class="XvhY1d" jsaction="mousedown:p8EH2c; touchstart:p8EH2c;"><div class="JAPqpe K0NPx"><span jsslot class="z80M1 FeRvI" jsaction="click:o6ZaF(preventDefault=true); mousedown:lAhnzb; mouseup:Osgxgf; mouseenter:SKyDAe; mouseleave:xq3APb;touchstart:jJiBRc; touchmove:kZeBdd; touchend:VfAz8" jsname="j7LFlb" aria-label="Google Sites" role="menuitem" tabindex="-1"><div class="aBBjbd MbhUzd" jsname="ksKsZd"></div><div class="uyYuVb oJeWuf" jsaction="JIbuQc:Toy3n;" jsname="V2zOu"><div class="jO7h3c">Google Sites</div></div></span><span jsslot class="z80M1 FeRvI" jsaction="click:o6ZaF(preventDefault=true); mousedown:lAhnzb; mouseup:Osgxgf; mouseenter:SKyDAe; mouseleave:xq3APb;touchstart:jJiBRc; touchmove:kZeBdd; touchend:VfAz8" jsname="j7LFlb" aria-label="Report abuse" role="menuitem" tabindex="-1"><div class="aBBjbd MbhUzd" jsname="ksKsZd"></div><div class="uyYuVb oJeWuf" jscontroller="HYv29e" jsaction="JIbuQc:dQ6O0c;" jsname="lV5oke" data-abuse-proto="%.@.null,&quot;102399551428737012078&quot;,&quot;https://sites.google.com/view/questumconsulting/home&quot;]" data-abuse-reporting-widget-proto="%.@.null,&quot;https://sites.google.com/view/questumconsulting/home&quot;]"><div class="jO7h3c">Report abuse</div></div></span><span jsslot class="z80M1 FeRvI" jsaction="click:o6ZaF(preventDefault=true); mousedown:lAhnzb; mouseup:Osgxgf; mouseenter:SKyDAe; mouseleave:xq3APb;touchstart:jJiBRc; touchmove:kZeBdd; touchend:VfAz8" jsname="j7LFlb" aria-label="Page details" role="menuitem" tabindex="-1"><div class="aBBjbd MbhUzd" jsname="ksKsZd"></div><div class="uyYuVb oJeWuf" jsaction="JIbuQc:hriXLd;" jsname="Rg8K2c"><div class="jO7h3c">Page details</div></div></span></div></div></div></div></div></div><div jscontroller="j1RDQb" jsaction="focusin:gBxDVb(srlkmf); focusout:zvXhGb(srlkmf); click:ro2KTd(psdQ5e);JIbuQc:DSypkd(Bg3gkf);MxH79b:JdcaS;rcuQ6b:rcuQ6b;" class="LqzjUe ynRLnc" data-last-updated-at-time="1752233659697" data-is-preview="false"><div jsname="psdQ5e" class="Q0cSn"></div><div jsname="bN97Pc" class="hBW7Hb"><div role="button" class="U26fgb mUbCce fKz7Od kpPxtd QMuaBc M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;" jsshadow jsname="Bg3gkf" aria-label="Site actions" aria-disabled="false" tabindex="-1" aria-hidden="true"><div class="VTBa7b MbhUzd" jsname="ksKsZd"></div><span jsslot class="xjKiLb"><span class="Ce1Y1c" style="top: -12px"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class=" NMm5M"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/></svg></span></span></div><div jsname="srlkmf" class="hUphyc"><div class="YkaBSd"><div class="iBkmkf"><span>Page updated</span> <span jsname="CFIm1b" class="dji00c" jsaction="AHmuwe:eGiyHb; mouseover:eGiyHb;" tabindex="0" role="contentinfo"></span></div></div><div class="YkaBSd" jsaction="click:Toy3n;"><div role="button" class="U26fgb kpPxtd J7BuEb" jsshadow jsname="V2zOu" aria-disabled="false" tabindex="0">Google Sites</div></div><div class="YkaBSd" jscontroller="HYv29e" jsaction="click:dQ6O0c;" data-abuse-proto="%.@.null,&quot;102399551428737012078&quot;,&quot;https://sites.google.com/view/questumconsulting/home&quot;]" data-abuse-reporting-widget-proto="%.@.null,&quot;https://sites.google.com/view/questumconsulting/home&quot;]"><div role="button" class="U26fgb kpPxtd J7BuEb" jsshadow aria-label="Report abuse" aria-disabled="false" tabindex="0">Report abuse</div></div></div></div></div><div jsname="kdb7zb"><div jscontroller="kklOXe" jsmodel="nbZU0e" jsaction="rcuQ6b:rcuQ6b;FaOgy:nkegzf;BU3dg:U3QbAf;HRy4zb:Z8zbSc;" class="Pt0Du TSZdd"><div class="mF4yBc" jsname="LgbsSe"><div jscontroller="TW9Rvc" jsaction="rcuQ6b:WYd;"><div role="presentation" class="U26fgb XHsn7e MAXCNe M9Bg4d" jscontroller="VXdfxd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;" jsshadow jsname="LgbsSe" aria-label="Edit this page" aria-disabled="false" data-tooltip="Edit this page" data-tooltip-vertical-offset="-12" data-tooltip-horizontal-offset="0"><a class="FKF6mc TpQm9d" href="/u/0/d/1kz86pjVX1cguaKiD1Ht62Dwb73OrCdAF/p/179AE7rYWNKi2Ka_PCOs6iLOMD-HrrZEO/edit?authuser=0&amp;usp=edit_published_site" aria-label="Edit this page"><div class="HaXdpb wb61gb"></div><div class="HRp7vf MbhUzd" jsname="ksKsZd"></div><span jsslot class="Ip8zfc"><svg class="EI709d" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/><path d="M0 0h24v24H0z" fill="none"/></svg></span></a></div></div></div></div></div></div></div></div><script nonce="bhY6a47Rwk0BZmXx2K1qPQ">DOCS_timing['cov']=new Date().getTime();</script><script src="https://www.gstatic.com/_/atari/_/js/k=atari.vw.en.12tLlhYqASQ.O/am=AIEBCA/d=1/rs=AGEqA5mWo5i6IsYeN_7YDQq-xfWZ-vs4kA/m=view" id="base-js" nonce="bhY6a47Rwk0BZmXx2K1qPQ"></script></div></div><div jscontroller="YV8yqd" jsaction="rcuQ6b:npT2md"></div></body></html>
